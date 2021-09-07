@@ -1,0 +1,349 @@
+* {
+	box-sizing: border-box;
+}
+     
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e6e6e6;
+	min-width: 978px;
+	/* サイトの高さ指定 */
+}
+
+header{
+	position: relative;
+	width: 100%;
+	padding: 25px 4% 10px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	display: flex;
+	align-items: center;
+	z-index: 10;
+}
+
+h1{
+	position: absolute;
+	margin: 0; padding: 0;
+	font-size: 26px;
+	top: 12px;
+	left: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: #4b4b4b;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	display: flex;
+}
+
+li{
+	margin: 0 0 0 15px;
+	font-size: 14px;
+}
+
+nav{
+	margin: 0 0 0 auto;
+}
+
+.main{
+	margin: 10px;
+	padding: 10px;
+}
+.mian_pic{
+	position: relative;
+}
+
+/* 固定背景 */
+.main_pic{
+	position: relative;;
+	height: 850px;
+	width: auto;
+	background-image: url("images/pic2.jpg");
+	background-size: 100% 1100px;
+	background-attachment: fixed;
+	margin: 0px 15px 10px;
+	
+}
+
+/* 写真一段目　*/
+.pic {
+	font-size: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.pic  >*{
+	width:30%;
+	margin-bottom:15px;
+	margin-left:2%;
+	display:inline-block;
+	font-size:12px;
+	}
+
+.pic > *:nth-child(2n + 1) {
+	margin-left:0;
+}
+.pic img {
+	max-width:100%;
+}
+
+/* 写真二段目 */
+.pic_sub {
+	font-size: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.pic_sub  >*{
+	width:30%;
+	margin-bottom:15px;
+	margin-left:2%;
+	display:inline-block;
+	font-size:12px;
+	}
+
+.pic_sub > *:nth-child(2n + 1) {
+	margin-left:0;
+}
+.pic_sub img {
+	max-width:100%;
+}
+
+/* マウスオーバー */
+
+
+
+/* Wprd Pressへのリンク */
+.wpress a{
+	position: absolute;
+	text-align: center;
+	font-size: 40px;
+	color: 
+	white;
+	text-shadow: 1px 0 5px  gold;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+ 	transform: translate(-50%,-50%);
+}
+
+/* flower */
+.blank1{
+	position: relative;
+	width: 100%;
+	padding: 50px 4% 30px;
+	background-color: #fff;
+	top: 100;
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 0;
+	padding: 80px;
+}
+.blank1 .b1{
+	position: absolute;
+	margin: 0; padding: 0;
+	font-size: 30px;
+	left: 20%;
+}
+.blank1 .b2{
+	position: absolute;
+	text-decoration: none;
+	color: #4b4b4b;
+	top: 15px;
+	left: 50%;
+}
+.blank1 .b3{
+	position: absolute;
+	text-decoration: none;
+	color: #4b4b4b;
+	top: 50px;
+	left: 50%;
+}
+
+.color {
+	color: crimson;
+}
+
+.story{
+	position: relative;
+	text-align: center;
+	font-size: 25px;
+	margin: 25px 0 0 25px;
+}
+
+.back {
+	background-color: #e6e6e6;
+}
+
+
+.blank2{
+	position: relative;
+	width: 100%;
+	min-width: 978px;
+	padding: 50px 4% 30px;
+	background-color: #fff;
+	top: 100;
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 0;
+	padding: 80px;
+}
+.blank2 .b01{
+	position: absolute;
+	margin: 0; padding: 0;
+	font-size: 25px;
+	left: 20%;
+}
+.blank2 .b02{
+	position: absolute;
+	margin: 0; padding: 0;
+	top: 35%;
+	left: 20%;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.pict{
+	width: 30%;
+	margin-left: 3%;
+}
+
+.pict img{
+	width: 120%;
+	height: auto;
+}
+
+
+header {
+	padding: 20px 3%;
+	transition: .3s;
+}
+header.scroll {
+	background: #fff;
+	padding: 15px 3%;
+}
+
+
+
+figure.hover_parent {
+	position: relative;
+	overflow: hidden;
+}
+
+figcaption .hover_mask{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	}
+
+figcaption .hover_mask {
+	opacity: 1;
+	transition:all 0.6s ease;
+}
+
+.info {
+	background-color: #e6e6e6;
+}
+
+.info_1{
+	display: inline-block;
+	height: 100px;
+	padding: 20px;
+}
+
+.info_1 .fontwight1{
+	font-size:large;
+	font-weight: 600;
+}
+
+footer {
+	background-color: #fff;
+	text-align: center;
+	padding: 26px 0;
+}
+
+.wrpper {
+	color: black;
+	font-size: 0.875rem;
+}
+
+.wrapper {
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    margin-right: 140px;
+}
+
+.title {
+    font-size:larger;
+}
+
+.maintitle {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    background: rgba(255, 255, 255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"], 
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    display: block;
+	top: 0px;
+	border: none;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.button {
+    font-size: 1rem;
+    background: brown;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

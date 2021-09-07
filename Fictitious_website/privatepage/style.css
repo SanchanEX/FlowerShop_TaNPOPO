@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e6e6e6;
+	/* サイトの高さ指定 */
+}
+
+header{
+	width: 100%;
+	padding: 25px 4% 10px;
+	background-color: #fff;
+	top: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	z-index: 10;
+}
+
+header {
+	padding: 20px 3%;
+	transition: .3s;
+}
+header.scroll {
+	background: #fff;
+	padding: 15px 3%;
+}
+
+h1{
+	position: absolute;
+	margin: 0; padding: 0;
+	font-size: 26px;
+	top: 12px;
+	left: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: #4b4b4b;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	display: flex;
+}
+
+li{
+	margin: 0 0 0 15px;
+	font-size: 14px;
+}
+
+nav{
+	margin: 0 0 0 auto;
+}
+
+figcaption .hover_mask {
+	opacity: 1;
+	transition:all 0.6s ease;
+}
+
+.blank1 {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.blank2 {
+    background-color: #fff;
+    text-align: center;
+}
+
+.info {
+	background-color: #e6e6e6;
+}
+
+.info_1{
+	display: inline-block;
+	height: 100px;
+	padding: 20px;
+}
+
+.info_1 .fontwight1{
+	font-size:large;
+	font-weight: 600;
+}
+
+footer {
+	background-color: #fff;
+	text-align: center;
+	padding: 26px 0;
+}
+
+.wrpper {
+	color: black;
+	font-size: 0.875rem;
+}

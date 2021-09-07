@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+    line-height: normal;
+}
+
+.subtitle {
+    text-align: center;
+    line-height: 50px;
+}
+
+.top-banner li {
+    float: none;
+    margin: 58px;
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
+
+.top-banner li img {
+    max-width: 100%;
+}
